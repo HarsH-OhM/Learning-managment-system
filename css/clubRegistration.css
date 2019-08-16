@@ -1,0 +1,52 @@
+body{
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    background:rgba(214, 198, 51, 0.644);
+    background:url(images/club2.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment: fixed;
+    
+   
+    
+}
+#form{
+    border: 1px solid black;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    width:350px;
+    margin:20px;
+    background:rgba(44, 63, 16, 0.5);
+    -webkit-border-radius:20px;
+    -webkit-box-shadow:5px 5px 10px black;
+    font: bold 16px cursive;
+
+}
+form{
+    margin:20px;
+    padding-bottom:10px;
+    
+
+}
+form>input{
+    height:20px;
+    margin:10px;
+    background:grey:
+}
+#dob input{
+        width:40px;
+}
+textarea{
+    width:300px;
+
+}
+
+#submit{
+    border:none;
+    padding:10px;
+    font-family:Tahoma;
+    font-size:15px;
+    background:rgb(4, 143, 143);
+    border-radius: 10px;
+    
+}

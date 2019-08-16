@@ -1,0 +1,66 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header,input,button{
+    display:block;
+}
+#login{
+    width:300px;
+    background:rgba(0, 0, 0, 0.37);
+    position:relative;
+    top:200px;
+    left:500px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    margin-bottom:10px;
+    
+}
+#title{
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+#login>input{
+    padding:10px;
+    margin-bottom:10px;
+    background:transparent;
+    color:white;
+    border:none;
+    border-bottom:1px solid whitesmoke;
+    width:90%;
+    margin-left:10px;
+}
+body{
+    background:url("images/loginwallpaper.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+#button{
+    background:rgb(202, 54, 54);
+    position:relative;
+    top:10px;
+    left:100px;
+    width:150px;
+    padding:5px;
+    border:none;
+    color:white;
+    font-family:cursive;
+    
+}
+#login_motto{
+   
+    width:300px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    position:relative;
+    left:850px;
+
+}
+

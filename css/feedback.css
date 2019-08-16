@@ -1,0 +1,52 @@
+body{
+    background:rgb(0, 160, 112);
+    background-image:url("images/feed.jpg");
+    background-size:cover;
+
+}
+
+#form{
+    border:1px solid black;
+    width:400px;
+    padding:10px 0px 10px 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:rgba(7, 91, 218, 0.384);
+    border-radius: 10px;
+    box-shadow:10px 10px 10px black;
+    color:white;
+}
+
+#form *{
+    background:transparent;
+    margin-bottom:10px;
+    
+}
+#form>input{
+    width:350px;
+    border:none;
+    border-bottom:1px solid rgba(255, 255, 255, 0.404);
+    height:25px;
+    font-size:18px;
+}
+#feedback
+{
+    margin-top:10px;
+    height:23px;
+    font-size:15px;
+    padding:2px;
+
+}
+#form>textarea{
+    width:350px;
+    height:120px;
+    margin-top:10px;
+}
+
+#submit{
+    border:none;
+    background:greenyellow;
+    padding:5px;
+    border-radius:5px;
+    box-shadow:5px 5px 10px;
+    width:350px;
+}
