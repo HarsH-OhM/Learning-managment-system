@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+<div id ="login">
+    <header id="title" class="w3-blue">
+        STUDENT LOGIN
+    </header>
+    <input type="text" name="username" placeholder="Username" id="uname">
+    <input type="password" name="password" placeholder="Password" id="pwd">
+    <a class="w3-button" id="button"> LOGIN    </a>
+    <br>
+    <br>
+</div>
+<p id="login_motto">Welcome to the Learners Zone.A Place to Learn Stuffs.</p>
+
+<script>
+    var uname=document.getElementById("uname");
+    var pwd=document.getElementById("pwd");
+
+    var button=document.getElementById("button");
+
+    button.onclick=validate;
+
+    function validate()
+    {
+    if(uname.value=="user" && pwd.value=="password")
+    {
+        window.location.href="mainpage.html"
+    }
+    else{
+        alert("You have entered the wrong username or password");
+    }
+    }
+</script>
+</body>
+</html>
